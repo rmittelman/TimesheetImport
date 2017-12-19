@@ -1,7 +1,31 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TimesheetImport.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SourceFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Z:\AIMM Automation\Timesheet Import</Value>
+    </Setting>
+    <Setting Name="LogFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Z:\AIMM Automation\Timesheet Import\Logs</Value>
+    </Setting>
+    <Setting Name="ArchiveFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Z:\AIMM Automation\Timesheet Import\Archive</Value>
+    </Setting>
+    <Setting Name="ErrorFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Z:\AIMM Automation\Timesheet Import\Errors</Value>
+    </Setting>
+    <Setting Name="ShowExcel" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="POLSQL" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=POLSQL;Initial Catalog=MLG;User ID=polsqluser;Password=Pol113388&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=POLSQL;Initial Catalog=MLG;User ID=polsqluser;Password=Pol113388</Value>
+    </Setting>
+    <Setting Name="ExcelRange" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">$A2:$M300</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
